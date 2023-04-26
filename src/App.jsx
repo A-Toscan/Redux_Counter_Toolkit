@@ -1,12 +1,12 @@
-import { useState } from 'react'
 import './App.css'
+import Counter from './components/Counter'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  
   return (
     <>
-      <h1>Redux</h1>
+      <h1>Redux - Toolkit</h1>
+      <Counter/>
     </>
   )
 }
